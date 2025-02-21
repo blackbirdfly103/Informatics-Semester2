@@ -66,12 +66,10 @@ public class Bookstore {
 
             if (payment >= price[index]) {
                 quantity[index]--;
-                System.out.println("Purchase successful! Change: $" + (payment - price[index]));
+                System.out.println("Change: $" + (payment - price[index]));
             } else {
-                System.out.println("Insufficient funds. Purchase failed.");
+                System.out.println("No enough money");
             }
-        } else {
-            System.out.println("Sorry, this book is out of stock.");
         }
     }
 }
