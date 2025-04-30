@@ -18,6 +18,7 @@ public class Moodle {
     }
 }
 
+//Parent
 class FromSoftwareGame {
     String name;
     int hoursPlayed;
@@ -46,6 +47,7 @@ class FromSoftwareGame {
     }
 }
 
+//Childeren:
 class Sekiro extends FromSoftwareGame {
     public Sekiro(int hoursPlayed, int deaths, boolean dlcDone, boolean gameDone) {
         super("Sekiro", hoursPlayed, deaths, dlcDone, gameDone);
